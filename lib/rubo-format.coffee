@@ -29,4 +29,4 @@ module.exports =
           if editor.getGrammar().name is "Ruby"
             console.log("rubo-format:","formatting",evt.path)
             args = [evt.path,'-a']
-            process = new BufferedProcess({command, args,stdout,exit})
+            process = new BufferedProcess({command, args})
