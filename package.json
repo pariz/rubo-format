@@ -1,8 +1,8 @@
 {
   "name": "rubo-format",
   "main": "./lib/rubo-format",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.9",
+  "description": "gofmt like ruby code formatting in atom",
   "keywords": [
   ],
   "repository": "https://github.com/atom/rubo-format",
