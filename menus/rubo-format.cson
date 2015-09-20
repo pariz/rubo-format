@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Format rubo-format'
+      'command': 'rubo-format:format'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'rubo-format'
+      'submenu': [
+        {
+          'label': 'Format'
+          'command': 'rubo-format:format'
+        }
+      ]
+    ]
+  }
+]
