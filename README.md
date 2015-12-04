@@ -1,5 +1,7 @@
 # rubo-format - gofmt like ruby code formatting in atom
 
+![Action shot](https://cdn.rawgit.com/pariz/rubo-format/master/rubo-format.gif)
+
 ## What is it?
 
 This package is inspired by the way gofmt formats golang code. I wanted something similar for Ruby. This is a simple wrapper around ``rubocop`` which formats the current `.rb` file on save.
@@ -31,6 +33,3 @@ It fixes indentation, code design mistakes and improves code readability thanks 
 
 Once `rubocop` and `rubo-format` is installed. Pop open a `.rb` file, save it and watch
 `rubo-format` take care of the rest.
-
-
-![Action shot](https://cdn.rawgit.com/pariz/rubo-format/master/rubo-format.gif)
