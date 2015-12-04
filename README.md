@@ -13,10 +13,16 @@ Make sure `rubocop` is installed:
 >`rubocop -v` should output the currently installed version of `rubocop`.
 `rubo-format` is tested with `rubocop` version 0.3 and higher.
 
-If `rubocop` isn't installed, install it using `gem install rubocop`.
+If `rubocop` isn't installed, install it using:
+```
+gem install rubocop
+```
 
 Then either install `rubo-format` using the atom built in package manager or
-install it from the command line with `apm install rubo-format`.
+install it from the command line with
+```
+apm install rubo-format
+```
 
 ## How do i use it?
 
